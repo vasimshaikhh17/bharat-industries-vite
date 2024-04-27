@@ -1,0 +1,43 @@
+.industries_bg {
+    height: 400px;
+    background-image: url(../../src/assets/images/backg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  @media(max-width:992px){
+    .service_bg{
+      width: 100vw;
+    }
+  }
+
+  #page-content{
+    margin-right:40px;
+  }
+  .arrange img{
+    height:250px;
+  }
+  @media(max-width:1300px) and (min-width:992px){
+    .arrange img{
+      width:300px;
+    }
+  }
+  @media(max-width:1500px) and (min-width:1300px){
+    .arrange img {
+      width:360px
+    }
+  }
+  @media(max-width:772px) {
+    .arrange img{
+      width:510px;
+      height:300px;
+    }
+    .arrange h5{
+      height:40px;
+    }
+  }
