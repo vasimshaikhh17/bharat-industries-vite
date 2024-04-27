@@ -1,14 +1,5 @@
 import React from "react";
-import { comments, sliderSettings } from "../../../../utils/data";
-import css from "./People.module.scss";
-import Slider from "react-slick";
-import {motion} from 'framer-motion'
-import { footerVariants, staggerChildren, textVariant, textVariant2 } from "../../../../utils/motion";
-import products from '../../../../assets/img/19.jpg/'
-import procurement from '../../../../assets/img/products.png'
-import Technicians from '../../../../assets/img/wide.png'
-import MarketingRepresentative from '../../../../assets/img/thirdparty.png'
-import ResearchandDevelopement from '../../../../assets/img/world.png'
+
 
 
 import fac1 from "../../../../assets/images/fac1.png"

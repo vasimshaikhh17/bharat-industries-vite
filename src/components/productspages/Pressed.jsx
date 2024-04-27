@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../layout/Layout'
+import Parts from '../commonparts/Parts'
 
 const Pressed = () => {
   return (
@@ -49,6 +50,7 @@ const Pressed = () => {
         </div>
       </section>
     </div>
+    <Parts/>
   </Layout>
   
   )

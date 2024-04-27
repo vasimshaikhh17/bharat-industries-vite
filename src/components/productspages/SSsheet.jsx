@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../layout/Layout'
+import Parts from '../commonparts/Parts'
 
 const SSsheet = () => {
   return (
@@ -81,6 +82,7 @@ const SSsheet = () => {
         </div>
       </section>
     </div>
+    <Parts/>
   </Layout>
   
   )

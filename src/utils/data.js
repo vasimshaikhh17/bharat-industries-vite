@@ -33,7 +33,7 @@ export const WhatDoIHelp = [
 export const workExp = [
   {
     place: "Location, India",
-    tenure: "Since the year 2000",
+    tenure: "Since the year 1990",
     role: "Research & Development",
     detail:
       "Our firm is supported by a cadre of exceptionally skilled Research and Development specialists. Through their ongoing exploration efforts, they spearhead a range of research initiatives, empowering the organization to enhance its technological prowess and refine its procedural acumen..",

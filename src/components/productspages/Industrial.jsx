@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../layout/Layout'
+import Parts from '../commonparts/Parts'
 
 const Industrial = () => {
   return (
@@ -53,6 +54,7 @@ const Industrial = () => {
         </div>
       </section>
     </div>
+    <Parts/>
   </Layout>
   
   )

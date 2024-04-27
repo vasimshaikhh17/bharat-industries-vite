@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../layout/Layout'
+import Parts from '../commonparts/Parts'
 
 const Stamping = () => {
   return (
@@ -53,6 +54,7 @@ const Stamping = () => {
         </div>
       </section>
     </div>
+    <Parts/>
   </Layout>
   
   )

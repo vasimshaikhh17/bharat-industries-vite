@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../layout/Layout'
+import Parts from '../commonparts/Parts'
 const MSsheet = () => {
   return (
     <Layout>
@@ -68,6 +69,7 @@ const MSsheet = () => {
         </div>
       </section>
     </div>
+    <Parts/>
   </Layout>
   
   )

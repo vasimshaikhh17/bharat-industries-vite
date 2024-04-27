@@ -18,7 +18,7 @@ const Parts = () => {
         
         {
   Array.from({ length: 41 }).map((_, i) => {
-    const imagePath = `../../../public/new.images/${i + 1}.jpeg`;
+    const imagePath = `/new.images/${i + 1}.jpeg`;
     console.log('Image Path:', imagePath); // Debugging line
     
     return (

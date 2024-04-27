@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../layout/Layout'
+import Parts from '../commonparts/Parts'
 
 const Custom = () => {
   return (
@@ -80,6 +81,7 @@ const Custom = () => {
           </div>
         </section>
     </div>
+    <Parts/>
     </Layout>
   )
 }

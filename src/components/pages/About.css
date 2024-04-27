@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
 .bgcol{
   background-color: black;
   color: #fff;
@@ -17,7 +15,8 @@
 }
 .hero-about {
   background-image:
-    url(C:\Users\rekis\OneDrive\Desktop\bytefaze\bharatindustries\src\assets\img\breadcume.jpg);
+    /* url(../../assets/); */
+    url('../../assets/img/breadcume.jpg');
   background-repeat: no-repeat;
   height: 50vh;
   background-position: center;
@@ -46,7 +45,7 @@
 /* hero section */ 
 
 .herobac {
-    background: url(src/assets/img/18.png);
+    background: url('../../assets/img/18.png');
     background-repeat: no-repeat;
     /* height: 50vh; */
     background-position: center;
@@ -99,7 +98,7 @@
 
 
 .hero-about{
-  background-image: url("src/assets/img/breadcume.jpg");
+  background-image: url("../../assets/img/breadcume.jpg");
   background-position: center;
   background-repeat:no-repeat;
   background-size: cover;

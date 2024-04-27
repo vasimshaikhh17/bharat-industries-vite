@@ -151,47 +151,7 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="accordion-item shadow-sm">
-                      <h2 className="accordion-header" id="headingFive">
-                        <button
-                          className="accordion-button collapsed bg-transparent fw-bold"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseFive"
-                          aria-expanded="false"
-                          aria-controls="collapseFive"
-                        >
-                          How Do I Cancel My Account?
-                        </button>
-                      </h2>
-                      <div
-                        id="collapseFive"
-                        className="accordion-collapse collapse"
-                        aria-labelledby="headingFive"
-                      >
-                        <div className="accordion-body">
-                          <p>
-                            To cancel your account, please follow these steps:
-                          </p>
-                          <ul>
-                            <li>
-                              Go to our website and sign in to your account.
-                            </li>
-                            <li>
-                              Click on your profile picture in the top right
-                              corner of the page and select "Account Settings."
-                            </li>
-                            <li>
-                              Scroll to the bottom of the page and click on
-                              "Cancel Account."
-                            </li>
-                            <li>
-                              Enter your password and click on "Cancel Account."
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
+                
                   </div>
                 </div>
               </div>

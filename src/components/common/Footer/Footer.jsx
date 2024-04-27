@@ -3,7 +3,7 @@ import { footerVariants, staggerChildren } from "../../../utils/motion";
 
 import css from "./Footer.module.scss";
 import { motion } from "framer-motion";
-import footerlogo from '../../../../public/new.images/logo.png'
+// import footerlogo from '../../../../public/new.images/logo.png'
 import { Link } from "react-router-dom";
 import "../../../styles/footer.css"
 const Footer = () => {
@@ -55,7 +55,7 @@ const Footer = () => {
                     <div className="widget-title">
                       <img
                         loading="lazy"
-                        src={footerlogo}
+                        src={'new.images/logo.png'}
                         alt="Bharat Industries"
                         style={{height:'4rem', paddingBottom:'1rem'}}
                       />

@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../layout/Layout'
+import Parts from '../commonparts/Parts'
 
 const Aluminium = () => {
   return (
@@ -57,6 +58,7 @@ const Aluminium = () => {
       </div>
     </section>
   </div>
+  <Parts/>
 </Layout>
 
   )
