@@ -15,7 +15,7 @@ const Contactus = () => {
     phone: "",
     location: "",
     message: "",
-    subject: "",
+    subject: "sheet",
   });
 
   const handleChange = (e) => {
@@ -169,14 +169,14 @@ const Contactus = () => {
                           className="form-control"
                           onChange={handleChange}
                         />
-                        <input
+                        {/* <input
                           type="text"
                           id="subject"
                           name="subject"
                           placeholder="subject"
                           className="form-control"
                           onChange={handleChange}
-                        />
+                        /> */}
                       </div>
                     </div>
                     <div className="form-group">
