@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bgcol{
+  background-color: black;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  margin: 0 1% 0 0;
+}
+.hero-about {
+  background-image:
+    /* url(../../assets/); */
+    url('../../assets/img/breadcume.jpg');
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-about h1 {
+  color: #fff;
+}
+.section-about {
+    background-color: #fff;
+    padding: 5rem;
+}
+
+
+
+#page-content h4{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+
+/* hero section */ 
+
+.herobac {
+    background: url('../../assets/img/18.png');
+    background-repeat: no-repeat;
+    /* height: 50vh; */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.O-links a{
+  text-decoration: none;
+  color: gray;
+  /* color: rgb(236, 92, 92); */
+  font-size: 17px;
+  padding-left: 2rem;
+  transition: all 0.3s;
+}
+.O-links a:hover,
+.O-links a:active{
+  color: rgb(236, 92, 92);
+}
+
+.item-link {
+  color: gray;
+  font-size: 13px !important;
+  /* padding-bottom: 2rem !important; */
+}
+
+/* industries page css */
+
+.h2size img {
+  height: 22rem;
+}
+
+.h2size h2 {
+  padding: 20px 0px;
+}
+
+/* contact page css */
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-about{
+  background-image: url("../../assets/img/breadcume.jpg");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+@media(max-width:772px){
+  #page-content p{
+    display: none ;
+  }
+  #page-content h2 {
+    display: none ;
+  }
+  #page-content img{
+    width:46vw;
+    height:15rem;
+  }
+}
+@media (min-width:773px){
+  #page-content img{
+    width:25vw;
+  }
+}
+
+
+
+
+#page-content img{
+  height:250px;
+}
+
+
+
+
+.about-section span{
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+  width: 500px; /* This sets a maximum width for larger screens */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+@media (max-width: 768px) {
+  .about-img img {
+    max-width: 120%;
+     /* Adjust as needed to fit your design */
+     margin: 0 auto;
+  }
+}
+
+
+
+.abt-heading{
+    color: #02b0f3;
+    white-space: nowrap; /* Prevents line breaks */
+    overflow: hidden; /* Hides any text that overflows */
+ /* Adds ellipsis (...) if text overflows */
+  }
+  
+  @media (max-width: 768px) {
+    .abt-heading {
+      font-size: 23px; /* Adjust font size for smaller screens */
+    }
+  }
+
+    @media (min-width:350px) and (max-width:1024px){
+      .about-section{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    /* Center text on small screens */
+      }
+  }
+

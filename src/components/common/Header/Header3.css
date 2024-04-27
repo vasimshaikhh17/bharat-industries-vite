@@ -1,0 +1,38 @@
+
+
+@media only screen and (max-width: 480px) {
+    .LogoHeight{
+        width: 230px!important;
+        height: 80px!important;
+        object-fit: contain;
+    }
+    .navbar-toggler{
+        margin-left: -70%;
+    }
+ }
+
+
+
+/******TESTING******/
+.LogoHeight{
+    width: 270px;
+    height: 110px;
+    object-fit: contain;
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 2.1em;
+    height: 2.1em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: #7F3AF3;
+    border-radius: 5px;
+}
+
+.drphover:hover{
+   background-color: #fff;
+   color: #000!important;
+  }

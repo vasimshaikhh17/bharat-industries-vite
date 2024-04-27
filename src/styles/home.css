@@ -1,0 +1,30 @@
+.faq-head h2 {
+    position: relative; /* Make sure the h2 is positioned relatively */
+}
+
+.faq-head h2::after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    display: block; /* Change to block to make it display properly */
+    background: #FFC107;
+    position: absolute;
+    left: 0;
+    right: 0; /* Set right to 0 to span the full width of the h2 */
+    bottom: -20px;
+    margin: 0 auto; /* Use margin instead of margin-inline */
+}
+@media (max-width: 992px) and (min-width: 375px) {
+    .faq-img img {
+        display: block; 
+        margin: 0 auto; 
+        max-width: 100%; 
+        height: auto; 
+    }
+}
+
+
+.fac-img img{
+    width: 100px 
+    !important;
+}

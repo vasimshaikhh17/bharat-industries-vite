@@ -1,0 +1,53 @@
+
+
+ .inline-link:hover{
+    color: #02b0f3 !important;
+  }
+
+
+
+  @media (max-width: 1050px) {
+    .powered-by {
+      display: block;
+   
+    
+    }
+    .powered-by .inline-link {
+      display: block;
+    }
+  }
+  
+
+
+  .inline-link {
+    color: #0D2F3F; /* Link text color */
+    text-decoration: none; /* Remove default underline */
+    position: relative; /* Required for pseudo-element */
+  }
+  
+
+
+
+  .inline-link::after {
+    content: ''; /* Add pseudo-element for underline */
+    position: absolute; /* Position the underline */
+    left: 18px; /* Start from the beginning of the link */
+    bottom: -5px; /* Adjust the distance of the underline from the text */
+    width: 50%; /* Full width */
+    height: 3px; /* Thickness of the underline */
+    background-color: rgb(38, 0, 255); /* Color of the underline */
+    transition: width 0.3s ease; /* Smooth transition for the underline */
+  }
+  
+  .inline-link:hover::after {
+    width: 90%; /* Increase the width of the underline on hover */
+  }
+  
+
+
+
+
+ .footer-link:hover{
+    color: #ffae00 !important;
+  }
+
