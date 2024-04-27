@@ -135,6 +135,9 @@
 .about-section span{
   display: flex;
   flex-direction: column;
+  margin-left: 90px;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .about-img {
@@ -172,4 +175,14 @@
       font-size: 23px; /* Adjust font size for smaller screens */
     }
   }
-  
+
+    @media (min-width:350px) and (max-width:1024px){
+      .about-section{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    /* Center text on small screens */
+      }
+  }
+

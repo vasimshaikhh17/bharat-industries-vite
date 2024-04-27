@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../layout/Layout";
 import "../pages/About.css";
+import Parts from "../commonparts/Parts";
 const Sheetmeataltools = () => {
   return (
     <>
@@ -14,8 +15,8 @@ const Sheetmeataltools = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <div className="heading-text heading-section">
-                  <h2 className="py-4">Materials for Metal Stamping Parts</h2>
+                <div className="heading-text heading-section text-center">
+                  <h2 className="py-4">Materials for Metal Stamping Parts Manufacturer</h2>
                 </div>
               </div>
               <div className="col-lg-12">
@@ -80,6 +81,8 @@ const Sheetmeataltools = () => {
             </div>
           </div>
         </section>
+
+        <Parts/>
       </Layout>
     </>
   );

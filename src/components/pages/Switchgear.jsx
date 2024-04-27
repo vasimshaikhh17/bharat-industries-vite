@@ -1,11 +1,14 @@
 import React from "react";
 import Layout from "../layout/Layout";
 import "../pages/About.css";
+import Parts from "../commonparts/Parts";
+
 const Sheetmeataltools = () => {
   return (
     <>
 
       <Layout>
+    
 
 
          {/* image coming from about.css */}
@@ -42,6 +45,7 @@ const Sheetmeataltools = () => {
   </div>
 </section>
 
+        <Parts/>
         </Layout>
     </>
   );

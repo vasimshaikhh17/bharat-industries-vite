@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../layout/Layout";
 import "../pages/About.css";
+import Parts from "../commonparts/Parts";
 const Sheetmeataltools = () => {
   return (
     <>
@@ -118,51 +119,9 @@ const Sheetmeataltools = () => {
       </div>
     </div>
   </section>
-  <section className="inquiry">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <h3 className="text-uppercase">Get In Touch:</h3>
-          <p className="lh-lg">Thank you for your interest in our company. If you have any questions or concerns about our products, please do not hesitate to contact us. We look forward to hearing from you soon!</p>
-          <div className="m-t-30">
-            <form method="post" id="form" name="form">
-              <input name="vind" type="hidden" id="vind" defaultValue={53031} ifkey="vind" />
-              <input name="ctype" type="hidden" id="ctype" defaultValue="I1172" ifkey="ctype" />
-              <input name="pname" type="hidden" id="pname" defaultValue="Khyati Industries - Sheet Metal Tools" ifkey="pname" />
-              <div className="row">
-                <div className="form-group col-md-6">
-                  <label htmlFor="name">Name</label>
-                  <input type="text" id="name" name="name" className="form-control" placeholder="Name" />
-                </div>
-                <div className="form-group col-md-6">
-                  <label htmlFor="email">Email</label>
-                  <input type="text" id="mail" className="form-control" name="mail" placeholder="Email" />
-                </div>
-              </div>
-              <div className="row">
-                <div className="form-group col-md-6">
-                  <label htmlFor="subject">Your Phone No</label>
-                  <input type="text" id="subj" name="subj" placeholder="Phone" className="form-control" />
-                </div>
-                <div className="form-group col-md-6">
-                  <label htmlFor="subject">Your Location</label>
-                  <input type="text" id="location" name="location" placeholder="Location" className="form-control" />
-                </div>
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea id="message" name="message" className="form-control" placeholder="Enter Your Message" defaultValue={""} />
-              </div>
-              <button type="button" name="submit" onclick="PostData(this.form)" className="btn">SEND MESSAGE</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+ 
 
-
-
+    <Parts/>
 
         </Layout>
     </>

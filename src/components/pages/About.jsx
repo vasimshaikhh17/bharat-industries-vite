@@ -21,7 +21,7 @@ const About = () => {
           <h1 className="abt-heading" style={{color:"#02b0f3"}}>Bharat Industries</h1> <br />
         </div>
       </div>
-      <div className="col-md-6 col-lg-6 col-12 order-2 order-lg-1">
+      <div className="col-md-6 col-lg-6 col-12 order-2 order-lg-1"style={{textAlign:"justify"}}>
         <p>Founded in the year 2015, SteelCraft Solutions emerged as a premier manufacturer and supplier specializing in an extensive array of Precision Forged and Metal Stamped Components. Our unwavering commitment has always been to deliver unparalleled quality to our clientele. Employing top-notch raw materials in our manufacturing process ensures that our products deliver optimal performance and functionality.</p>
         <p>Over the last two decades, our company has earned a sterling reputation among our clientele for providing top-notch, cost-effective solutions. Our products find extensive applications across both industrial and household sectors. Our diverse product portfolio encompasses Precision Machined Components, Metal Stamped Parts, Custom Tooling, Electrical Components, Brass Fittings, Copper Connectors, Stainless Steel Hardware, Mild Steel Components, and Deep Drawing Components..</p>
         <p>Our company, Spectrum Solutions, prides itself on delivering innovative solutions for even the most intricate components, leveraging advanced manufacturing techniques and cutting-edge technology. Our state-of-the-art production facility is equipped with the latest machinery to ensure precision and efficiency in every aspect of our operations. Continuously striving for excellence, we constantly integrate new production methodologies to provide our customers with an unparalleled selection of machinery parts. Moreover, we prioritize offering our product range at competitive prices and ensuring timely delivery to our valued customers.</p>
@@ -146,7 +146,7 @@ const About = () => {
         <h3>Qualified <br /> Team</h3>
       </div>
     </div>
-    <div className="row p-t-10 justify-content-center" id="market">
+    <div className="row p-t-10 justify-content-center"style={{paddingBottom:"20px"}} id="market">
       <div style={{backgroundColor: '#61C2E7', textAlign:'center', padding:'5rem 0rem'}} className="col-lg-3 quality mt-5">
         <h3>Market<br /> Leading Prices</h3>
       </div>
@@ -158,12 +158,12 @@ const About = () => {
 </section>
 
 <div>
-  <section id="page-content" style={{background: '#e8e8e8'}}>
+  <section id="page-content" style={{background: '#e8e8e8',  paddingTop:"1px"}}>
     <div className="container">
       <div className="heading-text heading-section text-center mt-5">
         <h4>Research &amp; Development</h4>
       </div>
-      <div className="col-md-12 col-12 text-center">
+      <div className="col-md-12 col-12 text-center"style={{paddingBottom:"30px"}}>
         <div className="">
           <span>Within our company, we are supported by a dedicated team of seasoned R&D professionals. Their regular research endeavors enable the organization to acquire advanced technology and process insights. By gathering firsthand market intelligence and customer feedback, they synthesize these findings with the diverse operational needs of the business. Through this collaborative effort, we continually innovate and enhance our existing product range.</span>
         </div>
@@ -188,11 +188,11 @@ const About = () => {
 
   <section id="page-content" style={{background: '#e8e8e8'}} >
     <div className="container "style={{paddingBottom:"10px"}}>
-      <div className="heading-text heading-section text-center mt-5 ">
+      <div className="heading-text heading-section text-center mt-5 "style={{paddingTop:"40px"}}>
         <h4>Quality Assurance</h4>
       </div>
       <div className="col-md-12 col-sm-12 text-center">
-        <div className="descset">
+        <div className="descset"style={{paddingBottom:"10px"}}>
           <h3 />
           <span>In our company, we prioritize the adherence of our machinery components to industry standards, ensuring their quality is consistently upheld. To achieve this, we rely on a team of seasoned quality controllers equipped with extensive industry experience. These professionals conduct rigorous inspections on our products to guarantee their integrity. Before final dispatch, our machinery components undergo meticulous testing on the following criteria:</span>
           <ul style={{display: 'flex', paddingLeft: 10, paddingTop: 10, justifyContent: 'center'}}>
@@ -209,16 +209,16 @@ const About = () => {
 
 <section className="box-fancy section-fullwidth text-light p-b-0" id="page-content">
   <div className="container">
-    <div className="heading-text heading-section text-center">
+    <div className="heading-text heading-section text-center"style={{paddingTop:"30px"}}>
       <h2 style={{color: '#000', fontSize:'4rem'}}>Certification &amp; Membership</h2>
     </div>
-    <div className="row about-content justify-content-center" style={{marginTop:'5rem', marginBottom:'5rem'}}>
-      <div className="col-lg-6 col-12 order-lg-1 order-2 text-center about-section"style={{marginTop:'5rem'}}>
+    <div className="row about-content" style={{marginTop:'5rem', marginBottom:'3rem'}}>
+      <div className="col-lg-6 col-12 order-lg-1 order-2 about-section"style={{marginTop:'2rem'}}>
         <span style={{color: '#000'}}><strong>Certification Name :</strong> ISO Certification </span>
         <span style={{color: '#000'}}><strong>Certification Type: </strong>ISO 9001:2015 </span>
         <span style={{color: '#000'}}><strong>Start Date: </strong>12-September-2023</span>
         <span style={{color: '#000'}}><strong>Expiry Date: </strong>11-September-2026</span>
-        <span style={{color: '#000'}}><strong>Issued By: </strong> Absolute Quality Certification Pvt. Ltd (AQC)</span>
+        {/* <span style={{color: '#000'}}><strong>Issued By: </strong> Absolute Quality Certification Pvt. Ltd (AQC)</span> */}
       </div>
       <div className="col-lg-6 col-12 order-lg-2 order-1 text-center">
         <img loading="lazy" src={cert2} style={{height: '30rem', width:'20rem'}} />

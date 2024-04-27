@@ -9,14 +9,7 @@ import procurement from '../../../../assets/img/products.png'
 import Technicians from '../../../../assets/img/wide.png'
 import MarketingRepresentative from '../../../../assets/img/thirdparty.png'
 import ResearchandDevelopement from '../../../../assets/img/world.png'
-import product2 from "../../../../../public/new.images/23.jpeg"
-import product3 from "../../../../../public/new.images/2.jpeg"
-import product4 from "../../../../../public/new.images/5.jpeg"
-import product5 from "../../../../../public/new.images/52.jpeg"
-import product6 from "../../../../../public/new.images/41.jpeg"
-import product7 from "../../../../../public/new.images/48.jpeg"
-import product8 from "../../../../../public/new.images/31.jpeg"
-import product9 from "../../../../../public/new.images/41.jpeg"
+
 
 import fac1 from "../../../../assets/images/fac1.png"
 import fac2 from "../../../../assets/images/fac2.png"

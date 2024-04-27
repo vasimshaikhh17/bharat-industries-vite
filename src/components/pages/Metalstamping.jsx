@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../layout/Layout";
 import "../pages/About.css";
+import Parts from "../commonparts/Parts";
 const Metalstamping = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const Metalstamping = () => {
   <div className="container">
     <div className="row">
       <div className="col-lg-12">
-        <div className="heading-text heading-section py-5">
+        <div className="heading-text heading-section text-center py-5">
           <h2>Metal Stamping</h2>
         </div>
       </div>
@@ -63,7 +64,7 @@ const Metalstamping = () => {
     </div>
   
   </section>
-
+<Parts/>
         </Layout>
 
 

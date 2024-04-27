@@ -62,7 +62,7 @@ const Footer = () => {
                     </div>
                     <p
                       className="mb-5 "
-                      style={{ padding: "0.5rem 0rem", lineHeight: "2" }}
+                      style={{ padding: "0.5rem 0rem", lineHeight: "2", textAlign:"justify"}}
                     >
                       Bharat Industries is one of the longest established fabrication and erection businesses. We are able to offer a wide range of Fabrications.
 
@@ -93,6 +93,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             <Link
                               to="/"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               Home
                             </Link>
@@ -101,6 +102,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             <Link
                               to="/about"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               About Us{" "}
                             </Link>
@@ -109,6 +111,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             <Link
                               to="/ourproducts"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               Our Product
                             </Link>
@@ -117,6 +120,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             <Link
                               to="/industries"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               Industries
                             </Link>
@@ -125,6 +129,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             <Link
                               to="/contact"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               Contact Us{" "}
                             </Link>
@@ -133,8 +138,8 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                       </div>
                     </div>
                     <div className="col-lg-4">
-                      <div className="widget">
-                        <div className="widget-title"style={{color:"#02b0f3"}}>Our Products</div>
+                      <div className="widget ">
+                        <div className="widget-title footr"style={{color:"#02b0f3"}}>Our Products</div>
                         <ul
                           className="list"
                           style={{
@@ -143,10 +148,11 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             lineHeight: "2",
                           }}
                         >
-                          <li>
+                          <li className="footer-link">
                             <Link
                               to="/sheetmetalpart"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               Sheet Metal Parts
                             </Link>
@@ -155,6 +161,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             <Link
                               to="/sheetmetaltool"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               Sheet Metal Tools
                             </Link>
@@ -163,6 +170,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             <Link
                               to="/switchgear"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               Switchgear Components &amp; Parts
                             </Link>
@@ -171,6 +179,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             <Link
                               to="/metalstamping"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               Metal Stamping
                             </Link>
@@ -179,6 +188,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             <Link
                               to="/materialsformetalstamping"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               Materials for Metal Stamping Parts{" "}
                             </Link>
@@ -187,6 +197,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
                             <Link
                               to="/stampedmetal"
                               style={{ textDecoration: "none", color: "#000" }}
+                              className="footer-link"
                             >
                               Stamped Metal Parts
                             </Link>
@@ -280,20 +291,20 @@ Bharat Industries started its business operations in the year 1990 and hold a na
       Copyrights © 2023 Bharat Industries.
     </span>
   </div>
-  <div className="col-lg-6 d-flex justify-content-end footer-link">
+  <div className="col-lg-6 d-flex justify-content-end">
   <span className="powered-by">
     Powered By{" "}
     
     <span className="inline-link">
     <br className="d-lg-none" />
       <Link to="https://www.bytefaze.com" target="_blank" className="inline-link" style={{ color: "#0D2F3F" }}>
-  &nbsp; <span style={{color:"red"}}>   -  </span>&nbsp;ByteFaze Web Solution
+  &nbsp; <span style={{color:"black"}}>   	&#124;  </span>&nbsp;ByteFaze Web Solution
       </Link>
     </span>
     <br className="d-lg-none" />
     <span className="inline-link">
       <Link to="https://www.bytefaze.com/website-designing" target="_blank" className="inline-link" style={{ color: "#0D2F3F" }}>
-      &nbsp; <span style={{color:"red"}}>   -  </span>&nbsp; Website Designing Company
+      &nbsp; <span style={{color:"black"}}>   	&#124;    </span>&nbsp; Website Designing Company
       </Link>
     </span>
   </span>

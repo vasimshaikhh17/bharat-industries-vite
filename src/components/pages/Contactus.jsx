@@ -209,7 +209,7 @@ const Contactus = () => {
                   </form>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6"style={{paddingTop:"10px"}}>
                 {/* <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14689.414718028105!2d72.6249257!3d23.0107827!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e877e7df16e53%3A0x76094bd392c9d3d7!2sKhyati%20Industries!5e0!3m2!1sen!2sin!4v1680867610327!5m2!1sen!2sin"
                   width="100%"
