@@ -291,7 +291,7 @@ Bharat Industries started its business operations in the year 1990 and hold a na
       Copyrights © 2023 Bharat Industries.
     </span>
   </div>
-  <div className="col-lg-6 d-flex justify-content-end">
+  <div className="col-lg-6 d-flex col-12 ft-link justify-content-end">
   <span className="powered-by">
     Powered By{" "}
     

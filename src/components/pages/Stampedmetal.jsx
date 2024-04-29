@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../layout/Layout";
-import "../pages/About.css";
 import { Link } from "react-router-dom";
 
 import p1 from "../../assets/img/products/2.webp";

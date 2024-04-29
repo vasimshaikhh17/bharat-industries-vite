@@ -32,7 +32,7 @@ const Ourproducts = () => {
           <h1 style={{color:'white'}}>Our Products</h1>
         </section>
 
-        <section id="page-content">
+        <section id="page-content"style={{paddingTop:"20px",paddingLeft:"30px"}}>
           <div className="container">
             <div
               id="blog"
@@ -81,7 +81,7 @@ const Ourproducts = () => {
               </div>
               
               <div className="post-item border">
-                <div className="post-item-wrap" style={{display:'flex', alignItems:'center', gap:'2rem'}}>
+                <div className="post-item-wrap" style={{display:'flex', alignItems:'center', gap:'1rem'}}>
                   <div className="post-image">
                     <Link to="/Switchgear">
                       <img loading="lazy" alt src={p6} />

@@ -107,17 +107,25 @@
   #page-content p{
     display: none ;
   }
-  #page-content h2 {
-    display: none ;
-  }
+
   #page-content img{
-    width:46vw;
-    height:15rem;
+    width:30vw;
+ 
+  }
+  #page-content h2{
+    text-align: center;
+  }
+ .item-link{ 
+font-size: 12px !important;
+  }
+
+  #page-content .post-item-description h2{
+    font-size: 10px !important;
   }
 }
 @media (min-width:773px){
   #page-content img{
-    width:25vw;
+    width:20vw;
   }
 }
 
@@ -146,7 +154,7 @@
 }
 
 .about-img img {
-  max-width: 100%;
+  max-width: 100vw;
   height: auto;
   width: 500px; /* This sets a maximum width for larger screens */
   margin: 0 auto; /* Centers the image horizontally */
@@ -185,3 +193,9 @@
       }
   }
 
+
+  @media (min-width:350px) and (max-width:1024px){
+    .abt-para{
+      width: 100% !important;
+    }
+}
